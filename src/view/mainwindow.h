@@ -6,9 +6,9 @@
 #include <QMainWindow>
 #include <QPainter>
 #include <QPen>
+#include <QTimer>
 #include <QWidget>
 #include <cstring>
-#include <QTimer>
 
 #include "controller.h"
 

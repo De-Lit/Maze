@@ -1,9 +1,9 @@
 #include <QApplication>
 
-#include "controller.h"
 #include "cave.h"
-#include "maze.h"
+#include "controller.h"
 #include "mainwindow.h"
+#include "maze.h"
 
 int main(int argc, char *argv[]) {
   QApplication a(argc, argv);

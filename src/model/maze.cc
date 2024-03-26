@@ -262,7 +262,8 @@ void maze::Maze::Builder::CheckedEndLine() {
   horizontal_[horizontal_.size() - 1][horizontal_[0].size() - 1] = 1;
 }
 
-pair<vector<vector<int>>&, vector<vector<int>>&> maze::Maze::Builder::GetData() {
+pair<vector<vector<int>>&, vector<vector<int>>&>
+maze::Maze::Builder::GetData() {
   return pair<vector<vector<int>>&, vector<vector<int>>&>{vertical_,
                                                           horizontal_};
 }
